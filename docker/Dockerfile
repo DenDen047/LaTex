@@ -65,6 +65,7 @@ RUN apk --no-cache add perl wget xz tar fontconfig-dev freetype-dev && \
 
 # jlistings
 COPY pkg/jlisting.sty /usr/local/texlive/2018/texmf-dist/tex/latex/listings/jlisting.sty
+RUN mktexlsr
 
 RUN apk --no-cache add bash
 

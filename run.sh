@@ -11,4 +11,4 @@ docker run -it --rm \
     -v ${STYLE_DIR}/styles:/styles \
     -w /root \
     denden047/latex \
-    /bin/bash #-c "${CMD}"
+    /bin/bash -c "${CMD}"
