@@ -63,6 +63,9 @@ RUN apk --no-cache add perl wget xz tar fontconfig-dev freetype-dev && \
     rm -fr /tmp/install-tl-unx && \
     apk --no-cache del xz tar
 
+# jlistings
+COPY pkg/jlisting.sty /usr/local/texlive/2018/texmf-dist/tex/latex/listings/jlisting.sty
+
 RUN apk --no-cache add bash
 
 RUN mkdir /workdir
