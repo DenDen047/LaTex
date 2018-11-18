@@ -14,3 +14,9 @@ $ docker pull denden047/latex
 ```bash
 $ ./run.sh ~/Documents/report.tex
 ```
+
+
+## Examples
+`./examples`フォルダは，参考にすると便利なtexファイルを収めている．
+
+* `report_jp.tex` ... 日本語での授業レポート
