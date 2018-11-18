@@ -8,5 +8,5 @@ CMD="uplatex ${FILE}.tex && dvipdfmx ${FILE}.dvi"
 docker run -it --rm \
     -v ${DIR}:/root \
     -w /root \
-    denden047/latex:alpha \
+    denden047/latex \
     /bin/bash -c "${CMD}"
