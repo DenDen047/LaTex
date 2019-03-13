@@ -1,5 +1,7 @@
 # LaTex
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c9770adc53374442a0e4c85dae15aefe)](https://app.codacy.com/app/DenDen047/LaTex?utm_source=github.com&utm_medium=referral&utm_content=DenDen047/LaTex&utm_campaign=Badge_Grade_Dashboard)
+
 ## Install
 DockerHubからイメージをダウンロードします。
 ```bash
