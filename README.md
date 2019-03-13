@@ -1,8 +1,15 @@
 # LaTex
 
 ## Install
+DockerHubからイメージをダウンロードします。
 ```bash
 $ docker pull denden047/latex
+```
+
+もしくは、直接環境をbuildします
+```bash
+$ cd ./docker
+$ make build
 ```
 
 ## Usage
