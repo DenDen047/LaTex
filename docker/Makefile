@@ -3,5 +3,5 @@
 REPO  ?= denden047/latex
 
 build:
-	docker build -t $(REPO) .
-	docker push $(REPO)
+	docker build -t $(REPO):latest .
+	docker push $(REPO):latest

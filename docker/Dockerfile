@@ -69,10 +69,12 @@ RUN mktexlsr
 
 RUN apk --no-cache add bash
 
+# clean
+RUN rm -rf /var/lib/apt/lists/*
+RUN rm -rf /var/cache/apk/*
+
 RUN mkdir /workdir
-
 WORKDIR /workdir
-
 VOLUME ["/workdir"]
 
 CMD ["bash"]
